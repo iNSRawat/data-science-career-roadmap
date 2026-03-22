@@ -498,3 +498,15 @@ Explore cutting-edge research papers on AI agents applied to data science workfl
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for:
+
+## 💰 You can help me by Donating
+
+If you find this resource helpful, consider supporting my work:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/nsrawat?ref=NSRawat) 
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/NRawat710?ref=NSRawat) 
+[![UPI](https://img.shields.io/badge/UPI-00BFFF?style=for-the-badge&logo=upi&logoColor=white)](https://withupi.com/@nsrawat?ref=NSRawat)
+
+---
+
+✨ *Built with ❤️ by [N S Rawat](https://github.com/iNSRawat)*
