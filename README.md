@@ -24,6 +24,7 @@
 - [Job Search Strategy](#job-search-strategy)
 - [Salary Expectations](#salary-expectations)
 - [Future Trends](#future-trends)
+- [AI Agent Papers for Data Science](ai-agent-data-science-papers.md)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -855,6 +856,13 @@ Prepare 5-7 stories about:
 
 ---
 
+## 🤖 AI Agent Papers for Data Science
+
+Explore cutting-edge research papers on AI agents applied to data science workflows:
+
+📄 **[ai-agent-data-science-papers.md](ai-agent-data-science-papers.md)** — A curated list of 6 research papers on Agentic AI / AutoML, covering tools like DeepAnalyze, MLE-bench, Jupiter, DS-STAR, and more.
+
+---
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for:
