@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-1. [DeepAnalyze: Autonomous Data Science via Agentic LLMs](#1-deepanalyze-autonomous-data-science-via-agentic-llms)
+1. [DeepAnalyze: Agentic Large Language Models for Autonomous Data Science](#1-deepanalyze-agentic-large-language-models-for-autonomous-data-science)
 2. [AI Research Agents for Machine Learning: Search, Exploration, and Generalization in MLE-bench](#2-ai-research-agents-for-machine-learning-search-exploration-and-generalization-in-mle-bench)
 3. [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](#3-the-ai-scientist-towards-fully-automated-open-ended-scientific-discovery)
 4. [Jupiter: Enhancing LLM Data Analysis via Notebook and Inference-Time Value-Guided Search](#4-jupiter-enhancing-llm-data-analysis-via-notebook-and-inference-time-value-guided-search)
@@ -15,7 +15,7 @@
 
 ---
 
-## 1. DeepAnalyze: Autonomous Data Science via Agentic LLMs
+## 1. DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
 
 **Summary:** Presents DeepAnalyze-8B, an agentic LLM trained to perform the full data science pipeline — from raw data processing to generating analytical reports — using a curriculum-based training process that mimics how human analysts learn.
 
@@ -25,7 +25,10 @@
 - Introduces data-grounded trajectory synthesis for high-quality training traces
 - Outperforms prior agents built on stronger proprietary models despite only 8B parameters
 
-**Paper:** [https://arxiv.org/abs/2510.16872](https://arxiv.org/abs/2510.16872)
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2510.16872](https://arxiv.org/abs/2510.16872)
+- 📄 **PDF:** [https://arxiv.org/pdf/2510.16872](https://arxiv.org/pdf/2510.16872)
+- 🐞 **GitHub:** [https://github.com/ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze)
 
 ---
 
@@ -39,21 +42,28 @@
 - Achieves state-of-the-art medal rates on MLE-bench Lite
 - Shows interplay between operator design and search policy is critical to performance
 
-**Paper:** [https://arxiv.org/abs/2507.02554](https://arxiv.org/abs/2507.02554)
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2507.02554](https://arxiv.org/abs/2507.02554)
+- 📄 **PDF:** [https://arxiv.org/pdf/2507.02554](https://arxiv.org/pdf/2507.02554)
+- 🐞 **GitHub (AIRA-dojo):** [https://github.com/facebookresearch/aira-dojo](https://github.com/facebookresearch/aira-dojo)
 
 ---
 
 ## 3. The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
 
-**Summary:** Introduces an AI system that can autonomously run the entire ML research process — from generating ideas to running experiments and writing full research papers — treating research as an open-ended, iterative process.
+**Summary:** Introduces an AI system (by Sakana AI) that can autonomously run the entire ML research process — from generating ideas to running experiments and writing full research papers — treating research as an open-ended, iterative process.
 
 **Key Highlights:**
 - End-to-end automation of ML research: idea generation → experiment design → implementation → paper writing
 - Multiple coordinated agents maintain coherent research trajectories over extended periods
-- Significantly reduces human effort needed per research idea
+- Significantly reduces human effort needed per research idea (~$15 per paper)
 - Demonstrates open-ended scientific exploration beyond fixed benchmarks
 
-**Paper:** [https://arxiv.org/abs/2408.06292](https://arxiv.org/abs/2408.06292)
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2408.06292](https://arxiv.org/abs/2408.06292)
+- 📄 **PDF:** [https://arxiv.org/pdf/2408.06292](https://arxiv.org/pdf/2408.06292)
+- 🐞 **GitHub (SakanaAI):** [https://github.com/SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist)
+- 🌐 **Project Page:** [https://sakana.ai/ai-scientist/](https://sakana.ai/ai-scientist/)
 
 ---
 
@@ -67,7 +77,10 @@
 - At inference time, combines value scores and search statistics for high-quality plans
 - Enables open-source LLMs to match commercial agent systems on notebook analysis tasks
 
-**Paper:** [https://arxiv.org/abs/2509.09245](https://arxiv.org/abs/2509.09245)
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2509.09245](https://arxiv.org/abs/2509.09245)
+- 📄 **PDF:** [https://arxiv.org/pdf/2509.09245](https://arxiv.org/pdf/2509.09245)
+- 🐞 **GitHub (Microsoft):** [https://github.com/microsoft/Jupiter](https://github.com/microsoft/Jupiter)
 
 ---
 
@@ -81,23 +94,41 @@
 - Achieves SOTA on DABStep, DABStep-Research, KramaBench, and DA-Code benchmarks
 - Human evaluators preferred its reports over strong baselines in 88%+ of cases
 
-**Paper (arXiv):** [https://arxiv.org/abs/2509.21825](https://arxiv.org/abs/2509.21825)
-
-**Blog Post:** [https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent/](https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent/)
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2509.21825](https://arxiv.org/abs/2509.21825)
+- 📄 **PDF:** [https://arxiv.org/pdf/2509.21825](https://arxiv.org/pdf/2509.21825)
+- 📖 **Google Research Blog:** [https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent/](https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent/)
 
 ---
 
 ## 6. Kosmos: An AI Scientist for Autonomous Discovery
 
-**Summary:** An AI scientist built around a structured world model and multi-agent architecture, capable of running long autonomous research cycles. It coordinates literature search and data analysis agents to make scientific discoveries over 12+ hour sessions.
+**Summary:** An AI scientist (by FutureHouse / Edison Scientific) built around a structured world model and multi-agent architecture, capable of running long autonomous research cycles that coordinate literature search and data analysis to make scientific discoveries.
 
 **Key Highlights:**
-- Takes an open-ended research objective + dataset and autonomously runs full research cycles
+- Takes an open-ended research objective + dataset and autonomously runs full research cycles (up to 12 hours)
 - Coordinates specialized agents (literature, data analysis) through a central world model
 - Produces traceable scientific reports enabling verification and reuse of findings
 - Shows approximately linear scaling of discovery output with runtime
+- 79.4% of conclusions verified accurate by independent scientists
 
-**Paper:** [https://arxiv.org/abs/2511.02824](https://arxiv.org/abs/2511.02824)
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2511.02824](https://arxiv.org/abs/2511.02824)
+- 📄 **PDF:** [https://arxiv.org/pdf/2511.02824](https://arxiv.org/pdf/2511.02824)
+- 🌐 **Announcement (Edison Scientific):** [https://edisonscientific.com/articles/announcing-kosmos](https://edisonscientific.com/articles/announcing-kosmos)
+
+---
+
+## Quick Reference: All Links
+
+| # | Paper | arXiv | PDF | GitHub / Project |
+|---|-------|-------|-----|------------------|
+| 1 | DeepAnalyze | [2510.16872](https://arxiv.org/abs/2510.16872) | [PDF](https://arxiv.org/pdf/2510.16872) | [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) |
+| 2 | MLE-bench Agents | [2507.02554](https://arxiv.org/abs/2507.02554) | [PDF](https://arxiv.org/pdf/2507.02554) | [facebookresearch/aira-dojo](https://github.com/facebookresearch/aira-dojo) |
+| 3 | The AI Scientist | [2408.06292](https://arxiv.org/abs/2408.06292) | [PDF](https://arxiv.org/pdf/2408.06292) | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) |
+| 4 | Jupiter | [2509.09245](https://arxiv.org/abs/2509.09245) | [PDF](https://arxiv.org/pdf/2509.09245) | [microsoft/Jupiter](https://github.com/microsoft/Jupiter) |
+| 5 | DS-STAR | [2509.21825](https://arxiv.org/abs/2509.21825) | [PDF](https://arxiv.org/pdf/2509.21825) | [Google Blog](https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent/) |
+| 6 | Kosmos | [2511.02824](https://arxiv.org/abs/2511.02824) | [PDF](https://arxiv.org/pdf/2511.02824) | [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) |
 
 ---
 
