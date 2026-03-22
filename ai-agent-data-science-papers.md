@@ -1,6 +1,6 @@
 # 🤖 Autonomous AI Agents for Data Science & Scientific Discovery
 
-> A curated collection of 6 must-read white papers exploring how autonomous AI agents are transforming data science, ML engineering, and scientific research.
+> A curated collection of 11 must-read white papers and research exploring how autonomous AI agents are transforming data science, ML engineering, and scientific research.
 
 ---
 
@@ -12,6 +12,11 @@
 4. [Jupiter: Enhancing LLM Data Analysis via Notebook and Inference-Time Value-Guided Search](#4-jupiter-enhancing-llm-data-analysis-via-notebook-and-inference-time-value-guided-search)
 5. [DS-STAR: A State-of-the-Art Versatile Data Science Agent](#5-ds-star-a-state-of-the-art-versatile-data-science-agent)
 6. [Kosmos: An AI Scientist for Autonomous Discovery](#6-kosmos-an-ai-scientist-for-autonomous-discovery)
+7. [AIDE: AI-Driven Exploration in the Space of Code](#7-aide-ai-driven-exploration-in-the-space-of-code)
+8. [AutoKaggle: Multi-Agent Framework for Autonomous Data Science](#8-autokaggle-multi-agent-framework-for-autonomous-data-science)
+9. [MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation](#9-mlagentbench-evaluating-language-agents-on-machine-learning-experimentation)
+10. [Large Language Model-based Data Science Agent: A Survey](#10-large-language-model-based-data-science-agent-a-survey)
+11. [DSBench & DataSciBench: Benchmarking Data Science Agents](#11-dsbench--datascibench-benchmarking-data-science-agents)
 
 ---
 
@@ -51,7 +56,7 @@
 
 ## 3. The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery
 
-**Summary:** Introduces an AI system (by Sakana AI) that can autonomously run the entire ML research process — from generating ideas to running experiments and writing full research papers — treating research as an open-ended, iterative process.
+**Summary:** Introduces an AI system by Sakana AI that can autonomously run the entire ML research process — from generating ideas to running experiments and writing full research papers — treating research as an open-ended, iterative process.
 
 **Key Highlights:**
 - End-to-end automation of ML research: idea generation → experiment design → implementation → paper writing
@@ -103,7 +108,7 @@
 
 ## 6. Kosmos: An AI Scientist for Autonomous Discovery
 
-**Summary:** An AI scientist (by FutureHouse / Edison Scientific) built around a structured world model and multi-agent architecture, capable of running long autonomous research cycles that coordinate literature search and data analysis to make scientific discoveries.
+**Summary:** An AI scientist by FutureHouse / Edison Scientific built around a structured world model and multi-agent architecture, capable of running long autonomous research cycles that coordinate literature search and data analysis to make scientific discoveries.
 
 **Key Highlights:**
 - Takes an open-ended research objective + dataset and autonomously runs full research cycles (up to 12 hours)
@@ -119,22 +124,124 @@
 
 ---
 
+## 7. AIDE: AI-Driven Exploration in the Space of Code
+
+**Summary:** AIDE frames machine learning engineering as a code optimization problem and formulates trial-and-error as a tree search over the space of potential solutions. By strategically reusing and refining promising solutions, it achieves state-of-the-art results across multiple ML engineering benchmarks including OpenAI's MLE-bench.
+
+**Key Highlights:**
+- Frames ML engineering as a code optimization problem solved via tree search
+- Systematically drafts, debugs, and refines solutions over extended time periods (up to 24h)
+- Achieves 4x more Kaggle medals than runner-up agents on OpenAI's MLE-bench (75 tasks)
+- Top-performing agent framework when paired with state-of-the-art LLMs
+- Generalizes beyond tabular ML to neural architecture search and AI R&D tasks
+- Fully open-source; available as `aideml` package on PyPI
+
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2502.13138](https://arxiv.org/abs/2502.13138)
+- 📄 **PDF:** [https://arxiv.org/pdf/2502.13138](https://arxiv.org/pdf/2502.13138)
+- 🐞 **GitHub (WecoAI):** [https://github.com/WecoAI/aideml](https://github.com/WecoAI/aideml)
+- 📦 **PyPI:** [https://pypi.org/project/aideml/](https://pypi.org/project/aideml/)
+
+---
+
+## 8. AutoKaggle: Multi-Agent Framework for Autonomous Data Science
+
+**Summary:** AutoKaggle proposes a collaborative multi-agent system for solving Kaggle data science competitions end-to-end. It uses a phase-based workflow with five specialized agents and iterative debugging with unit testing to ensure robust, correct code generation throughout the pipeline.
+
+**Key Highlights:**
+- Six-phase workflow: Background Understanding, EDA, Data Cleaning, Feature Engineering, Model Building, Report
+- Five specialized agents: Reader, Planner, Developer, Reviewer, Summarizer
+- Iterative code debugging and unit testing baked into each phase
+- Achieves 0.85 validation submission rate and 0.82 comprehensive score on Kaggle competitions
+- Universal ML tools library reduces burden of low-level programming tasks on agents
+- Accepted at ICLR 2025
+
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2410.20424](https://arxiv.org/abs/2410.20424)
+- 📄 **PDF:** [https://arxiv.org/pdf/2410.20424](https://arxiv.org/pdf/2410.20424)
+- 🐞 **GitHub:** [https://github.com/multimodal-art-projection/AutoKaggle](https://github.com/multimodal-art-projection/AutoKaggle)
+- 🌐 **Project Page:** [https://m-a-p.ai/AutoKaggle.github.io/](https://m-a-p.ai/AutoKaggle.github.io/)
+
+---
+
+## 9. MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation
+
+**Summary:** MLAgentBench introduces the first benchmark for evaluating LLM-based agents on machine learning experimentation tasks — covering a range from well-established datasets like CIFAR-10 to recent Kaggle challenges — to assess whether agents can autonomously conduct ML research end-to-end.
+
+**Key Highlights:**
+- 13 diverse ML tasks spanning text, image, time series, graphs, and tabular data
+- General framework for specifying tasks with clear goals and automatic evaluation via performance metrics
+- Demonstrates feasibility of LM-based agents for ML experimentation (37.5% average success rate)
+- Success rates vary widely: 100% on established datasets, 0% on recent post-training Kaggle tasks
+- Lays the groundwork for benchmarking autonomous ML research agents
+- Open-source benchmark used by many subsequent works (AIDE, AIRA-dojo, etc.)
+
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2310.03302](https://arxiv.org/abs/2310.03302)
+- 📄 **PDF:** [https://arxiv.org/pdf/2310.03302](https://arxiv.org/pdf/2310.03302)
+- 🐞 **GitHub (Stanford CRFM):** [https://github.com/snap-stanford/MLAgentBench](https://github.com/snap-stanford/MLAgentBench)
+
+---
+
+## 10. Large Language Model-based Data Science Agent: A Survey
+
+**Summary:** A comprehensive survey of LLM-based agents designed for data science tasks, analyzing insights from recent studies from two complementary perspectives: agent design (roles, execution, knowledge, reflection) and data science application (preprocessing, modeling, evaluation, visualization).
+
+**Key Highlights:**
+- Reviews 40+ LLM-based data science agent systems from 2023-2025
+- Dual-perspective framework: agent design principles + data science workflow stages
+- Covers single-agent systems, collaborative multi-agent structures, and dynamic agent generation
+- Analyzes core components: planning, memory, tool use, reflection mechanisms
+- Identifies open research challenges and future directions
+- Excellent entry point to understand the entire landscape of DS agents
+
+**Links:**
+- 📜 **arXiv Paper:** [https://arxiv.org/abs/2508.02744](https://arxiv.org/abs/2508.02744)
+- 📄 **PDF:** [https://arxiv.org/pdf/2508.02744](https://arxiv.org/pdf/2508.02744)
+
+---
+
+## 11. DSBench & DataSciBench: Benchmarking Data Science Agents
+
+**Summary:** Two complementary benchmarks released in 2024-2025 for evaluating data science agents on realistic tasks: **DSBench** (466 data analysis tasks + 74 modeling tasks from Kaggle and Eloquence) and **DataSciBench** (comprehensive evaluation of LLM capabilities on data science with uncertain ground truth and complex prompts).
+
+**Key Highlights:**
+- **DSBench:** 466 data analysis tasks + 74 modeling tasks sourced from real competitions
+- **DataSciBench:** Constructed from natural, challenging prompts with semi-automated evaluation pipeline
+- Both assess multi-step reasoning, long-context handling, multi-table structures
+- State-of-the-art agents solve only 34% of tasks, showing significant room for improvement
+- Evaluation frameworks measure both coarse-grained (task completion) and fine-grained (intermediate steps) performance
+- Identify critical gaps in current LLM/agent capabilities for data science
+
+**Links:**
+- 📜 **DSBench arXiv:** [https://arxiv.org/abs/2409.07703](https://arxiv.org/abs/2409.07703)
+- 📜 **DataSciBench arXiv:** [https://arxiv.org/abs/2502.13897](https://arxiv.org/abs/2502.13897)
+- 📄 **DSBench PDF:** [https://arxiv.org/pdf/2409.07703](https://arxiv.org/pdf/2409.07703)
+- 📄 **DataSciBench PDF:** [https://arxiv.org/pdf/2502.13897](https://arxiv.org/pdf/2502.13897)
+
+---
+
 ## Quick Reference: All Links
 
-| # | Paper | arXiv | PDF | GitHub / Project |
-|---|-------|-------|-----|------------------|
+| # | Paper | arXiv | PDF | GitHub / Links |
+|---|-------|-------|-----|----------------|
 | 1 | DeepAnalyze | [2510.16872](https://arxiv.org/abs/2510.16872) | [PDF](https://arxiv.org/pdf/2510.16872) | [ruc-datalab/DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) |
 | 2 | MLE-bench Agents | [2507.02554](https://arxiv.org/abs/2507.02554) | [PDF](https://arxiv.org/pdf/2507.02554) | [facebookresearch/aira-dojo](https://github.com/facebookresearch/aira-dojo) |
 | 3 | The AI Scientist | [2408.06292](https://arxiv.org/abs/2408.06292) | [PDF](https://arxiv.org/pdf/2408.06292) | [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) |
 | 4 | Jupiter | [2509.09245](https://arxiv.org/abs/2509.09245) | [PDF](https://arxiv.org/pdf/2509.09245) | [microsoft/Jupiter](https://github.com/microsoft/Jupiter) |
 | 5 | DS-STAR | [2509.21825](https://arxiv.org/abs/2509.21825) | [PDF](https://arxiv.org/pdf/2509.21825) | [Google Blog](https://research.google/blog/ds-star-a-state-of-the-art-versatile-data-science-agent/) |
 | 6 | Kosmos | [2511.02824](https://arxiv.org/abs/2511.02824) | [PDF](https://arxiv.org/pdf/2511.02824) | [Edison Scientific](https://edisonscientific.com/articles/announcing-kosmos) |
+| 7 | AIDE | [2502.13138](https://arxiv.org/abs/2502.13138) | [PDF](https://arxiv.org/pdf/2502.13138) | [WecoAI/aideml](https://github.com/WecoAI/aideml) |
+| 8 | AutoKaggle | [2410.20424](https://arxiv.org/abs/2410.20424) | [PDF](https://arxiv.org/pdf/2410.20424) | [multimodal-art-projection](https://github.com/multimodal-art-projection/AutoKaggle) |
+| 9 | MLAgentBench | [2310.03302](https://arxiv.org/abs/2310.03302) | [PDF](https://arxiv.org/pdf/2310.03302) | [snap-stanford/MLAgentBench](https://github.com/snap-stanford/MLAgentBench) |
+| 10 | LLM DS Agent Survey | [2508.02744](https://arxiv.org/abs/2508.02744) | [PDF](https://arxiv.org/pdf/2508.02744) | N/A |
+| 11 | DSBench & DataSciBench | [DSB](https://arxiv.org/abs/2409.07703) / [DSCIB](https://arxiv.org/abs/2502.13897) | [DSB](https://arxiv.org/pdf/2409.07703) / [DSCIB](https://arxiv.org/pdf/2502.13897) | N/A |
 
 ---
 
 ## How These Papers Connect to the Data Science Roadmap
 
-These 6 papers sit directly at the frontier of the **Agentic AI / AutoML** trends shaping the future of the profession:
+These 11 papers sit directly at the frontier of the **Agentic AI / AutoML** trends shaping the future of the profession:
 
 | Paper | Relevance to Data Scientists |
 |-------|------------------------------|
@@ -144,6 +251,11 @@ These 6 papers sit directly at the frontier of the **Agentic AI / AutoML** trend
 | Jupiter | Automates Jupyter notebook-based analysis workflows |
 | DS-STAR | Real-world, multi-format data science at SOTA level |
 | Kosmos | Long-horizon autonomous scientific discovery |
+| AIDE | Tree-search-based ML engineering agent; 4x MLE-bench medals |
+| AutoKaggle | Multi-agent collaboration with phase-based workflow for Kaggle |
+| MLAgentBench | First benchmark for ML experimentation agents (foundation work) |
+| LLM DS Agent Survey | Comprehensive review of 40+ agent systems (2023-2025) |
+| DSBench/DataSciBench | Realistic benchmarks revealing current limitations of agents |
 
 > Understanding these systems will help you position yourself as a data scientist who can **orchestrate and collaborate with AI agents** — not just use traditional tools.
 
