@@ -23,6 +23,7 @@
 - [AI Agent Papers for Data Science](ai-agent-data-science-papers.md)
 - [Contributing](#contributing)
 - [License](#license)
+- [You can help me by Donating](#You-can-help-me-by-Donating)
 
 ---
 
