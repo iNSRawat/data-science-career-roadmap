@@ -10,21 +10,19 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Why This Roadmap?](#why-this-roadmap)
-- [Career Outlook](#career-outlook)
+- [Overview](#-overview)
+- [Why This Roadmap?](#-why-this-roadmap)
+- [Career Outlook](#-career-outlook)
 - [Learning Roadmap](learning-roadmap.md)
-- [Essential Skills](#essential-skills)
-- [Free Resources](#free-resources)
-- [Portfolio Projects](#portfolio-projects)
-- [Job Search Strategy](#job-search-strategy)
-- [Salary Expectations](#salary-expectations)
-- [Future Trends](#future-trends)
+- [Essential Skills](#-essential-skills)
+- [Free Resources](#-free-resources)
+- [Portfolio Projects](#-portfolio-projects)
+- [Job Search Strategy](#-job-search-strategy)
+- [Salary Expectations](#-salary-expectations)
+- [Future Trends](#-future-trends-2025-2030)
 - [AI Agent Papers for Data Science](ai-agent-data-science-papers.md)
-- [Contributing](#contributing)
-- [License](#license)
-- [You can help me by Donating](#You-can-help-me-by-Donating)
-
+- [Contributing](#-contributing)
+- [You can help me by Donating](#-you-can-help-me-by-donating)
 ---
 
 ## 🎯 Overview
