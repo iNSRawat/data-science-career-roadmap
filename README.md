@@ -135,7 +135,7 @@ This repository provides a **complete, structured roadmap** for career changers 
 - **Kaggle** - Datasets, competitions
 - **StrataScratch** - Data science interviews
 - **Mode Analytics** - SQL practice
-
+- **[Data Science KIT](https://github.com/avinash201199/Data-Science-KIT)** - Curated collection of data science resources, projects, and tools
 ### 🛠️ Essential Tools (All FREE)
 
 **Programming**:
