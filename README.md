@@ -21,6 +21,7 @@
 - [Salary Expectations](#-salary-expectations)
 - [Future Trends](#-future-trends-2025-2030)
 - [AI Agent Papers for Data Science](ai-agent-data-science-papers.md)
+-  [🎓 GitHub Repos That Can Replace a Degree](Useful-GitHub-Repos-That-Can-Replace-a-Degree.md)
 - [Contributing](#-contributing)
 - [You can help me by Donating](#-you-can-help-me-by-donating)
 ---
@@ -493,6 +494,20 @@ Explore cutting-edge research papers on AI agents applied to data science workfl
 
 📄 **[ai-agent-data-science-papers.md](ai-agent-data-science-papers.md)** — A curated list of 6 research papers on Agentic AI / AutoML, covering tools like DeepAnalyze, MLE-bench, Jupiter, DS-STAR, and more.
 
+## 🎓 GitHub Repos That Can Replace a Degree
+
+A curated collection of 35 powerful GitHub repositories across 5 categories that provide free, practical, and career-ready learning.
+
+📌 **[View Full List → Useful-GitHub-Repos-That-Can-Replace-a-Degree.md](Useful-GitHub-Repos-That-Can-Replace-a-Degree.md)**
+
+### Categories Covered:
+| Category | Repos |
+|----------|-------|
+| 💻 Software Engineers | freeCodeCamp, coding-interview-university, system-design-primer, build-your-own-x, developer-roadmap, javascript-algorithms, public-apis |
+| 🤖 ML / AI Engineers | transformers, nn-zero-to-hero, langchain, Made-With-ML, pytorch, ML-For-Beginners, generative-ai-for-beginners |
+| 📊 Data Scientists | data-science-ipython-notebooks, awesome-datascience, Data-Science-For-Beginners, scikit-learn, pandas, ML-From-Scratch, cookiecutter-data-science |
+| ☁️ DevOps / Cloud | 90DaysOfDevOps, devops-exercises, docker-curriculum, kubernetes-the-hard-way, terraform-best-practices, DevOps-Roadmap, awesome-devops |
+| 📚 More Categories | free-programming-books, the-art-of-command-line, project-based-learning, the-book-of-secret-knowledge, awesome-for-beginners, CS-Notes, open-source-cs |
 ---
 ## 🤝 Contributing
 
