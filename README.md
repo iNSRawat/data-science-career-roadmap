@@ -494,11 +494,11 @@ Explore cutting-edge research papers on AI agents applied to data science workfl
 
 📄 **[ai-agent-data-science-papers.md](ai-agent-data-science-papers.md)** — A curated list of 6 research papers on Agentic AI / AutoML, covering tools like DeepAnalyze, MLE-bench, Jupiter, DS-STAR, and more.
 
-## 🎓 GitHub Repos That Can Replace a Degree
+## 🎓 GitHub Repos for Data Science, AI/ML &Data Analytics
 
 A curated collection of 35 powerful GitHub repositories across 5 categories that provide free, practical, and career-ready learning.
 
-📌 **[View Full List → Useful-GitHub-Repos-That-Can-Replace-a-Degree.md](Useful-GitHub-Repos-That-Can-Replace-a-Degree.md)**
+📌 **[View Full List → Useful for Data Science, AI/ML &Data Analytics.md](Useful-for-Data-Science-AI-ML-&-Data-Analytics.md)**
 
 ### Categories Covered:
 | Category | Repos |
