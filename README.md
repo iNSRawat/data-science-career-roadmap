@@ -21,7 +21,7 @@
 - [Salary Expectations](#-salary-expectations)
 - [Future Trends](#-future-trends-2025-2030)
 - [AI Agent Papers for Data Science](ai-agent-data-science-papers.md)
--  [🎓 GitHub Repos That Can Replace a Degree](Useful-GitHub-Repos-That-Can-Replace-a-Degree.md)
+-  [🎓 GitHub Repos for Data Science, AI/ML &Data Analytics](Useful-for-Data-Science-AI-ML-&-Data-Analytics.md)
 - [Contributing](#-contributing)
 - [You can help me by Donating](#-you-can-help-me-by-donating)
 ---
