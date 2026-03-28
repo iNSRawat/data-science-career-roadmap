@@ -14,7 +14,7 @@
 - [Why This Roadmap?](#-why-this-roadmap)
 - [Career Outlook](#-career-outlook)
 - [Learning Roadmap](learning-roadmap.md)
-- [Essential Skills](#-essential-skills)
+- [Essential Skills](#%EF%B8%8F-essential-skills)
 - [Free Resources](#-free-resources)
 - [Portfolio Projects](#-portfolio-projects)
 - [Job Search Strategy](#-job-search-strategy)
@@ -22,6 +22,7 @@
 - [Future Trends](#-future-trends-2025-2030)
 - [AI Agent Papers for Data Science](ai-agent-data-science-papers.md)
 -  [🎓 GitHub Repos for Data Science, AI/ML &Data Analytics](Useful-for-Data-Science-AI-ML-&-Data-Analytics.md)
+ - [🐼 EDA with Pandas CheatSheet](exploratory%20data%20analysis%20(EDA)%20with%20pandas.md)
 - [Contributing](#-contributing)
 - [You can help me by Donating](#-you-can-help-me-by-donating)
 ---
@@ -508,6 +509,14 @@ A curated collection of 35 powerful GitHub repositories across 5 categories that
 | 📊 Data Scientists | data-science-ipython-notebooks, awesome-datascience, Data-Science-For-Beginners, scikit-learn, pandas, ML-From-Scratch, cookiecutter-data-science |
 | ☁️ DevOps / Cloud | 90DaysOfDevOps, devops-exercises, docker-curriculum, kubernetes-the-hard-way, terraform-best-practices, DevOps-Roadmap, awesome-devops |
 | 📚 More Categories | free-programming-books, the-art-of-command-line, project-based-learning, the-book-of-secret-knowledge, awesome-for-beginners, CS-Notes, open-source-cs |
+
+---
+
+## 🐼 EDA with Pandas CheatSheet
+
+A comprehensive Pandas EDA cheat sheet covering 29 key topics — from data loading and cleaning to advanced transformations, time series, text operations, and performance tuning.
+
+📊 **[exploratory data analysis (EDA) with pandas.md](exploratory%20data%20analysis%20(EDA)%20with%20pandas.md)** — 29 sections covering Data Loading, Inspection, Cleaning, Transformation, Visualization, Statistical Analysis, Merging, Time Series, NLP operations, Normalization, and more.
 ---
 ## 🤝 Contributing
 
