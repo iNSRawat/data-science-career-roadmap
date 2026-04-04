@@ -232,3 +232,81 @@
 
 - **Read CSV with Specific Delimiter:** `df = pd.read_csv('filename.csv', delimiter=';')`
 - **Writing to JSON:** `df.to_json('filename.json')`
+
+
+---
+
+## 30. Dealing with Missing Data
+
+- **Interpolate Missing Values:** `df['column'].interpolate()`
+- **Forward Fill Missing Values:** `df['column'].ffill()`
+- **Backward Fill Missing Values:** `df['column'].bfill()`
+
+---
+
+## 31. Data Reshaping
+
+- **Wide to Long Format:** `pd.wide_to_long(df, ['col'], i='id_col', j='year')`
+- **Long to Wide Format:** `df.pivot(index='id_col', columns='year', values='col')`
+
+---
+
+## 32. Categorical Data Operations
+
+- **Convert Column to Categorical:** `df['column'] = df['column'].astype('category')`
+- **Order Categories:** `df['column'].cat.set_categories(['cat1', 'cat2'], ordered=True)`
+
+---
+
+## 33. Advanced Indexing
+
+- **Reset Index:** `df.reset_index(drop=True)`
+- **Set Multiple Indexes:** `df.set_index(['col1', 'col2'])`
+- **MultiIndex Slicing:** `df.xs(key='value', level='level_name')`
+
+---
+
+## 34. Efficient Computations
+
+- **Use of eval() for Efficient Operations:** `df.eval('col1 + col2')`
+- **Query Method for Filtering:** `df.query('col1 < col2')`
+
+---
+
+## 35. Integration with SciPy and StatsModels
+
+- **Linear Regression (with statsmodels):** `import statsmodels.api as sm; sm.OLS(y, X).fit()`
+- **Kurtosis and Skewness (with SciPy):** `from scipy.stats import kurtosis, skew; kurtosis(df['column']), skew(df['column'])`
+
+---
+
+## 36. Handling Large Data Efficiently
+
+- **Dask Integration for Large Data:** `import dask.dataframe as dd; ddf = dd.from_pandas(df, npartitions=10)`
+- **Sampling Data for Quick Insights:** `df.sample(n=1000)`
+
+---
+
+## 37. Advanced Data Merging
+
+- **SQL-like Joins:** `pd.merge(df1, df2, how='left', on='col')`
+- **Concatenating Along a Different Axis:** `pd.concat([df1, df2], axis=1)`
+
+---
+
+## 38. Profiling Data for Quick Insights
+
+- **Using Pandas Profiling for Quick Analysis:** `from pandas_profiling import ProfileReport; report = ProfileReport(df)`
+
+---
+
+## 39. Working with External Data Sources
+
+- **Reading Data from HTML:** `dfs = pd.read_html('http://example.com')`
+- **Connecting to a SQL Database:** `from sqlalchemy import create_engine; engine = create_engine('sqlite:///db.sqlite'); df = pd.read_sql('SELECT * FROM table_name', engine)`
+
+---
+
+## 40. Data Quality Checks
+
+- **Assert Statement for Data Validation:** `assert df.notnull().all().all(), "There are missing values in the dataframe"`
