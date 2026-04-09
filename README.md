@@ -23,6 +23,7 @@
 - [AI Agent Papers for Data Science](ai-agent-data-science-papers.md)
 -  [🎓 GitHub Repos for Data Science, AI/ML &Data Analytics](Useful-for-Data-Science-AI-ML-&-Data-Analytics.md)
  - [🐼 EDA with Pandas CheatSheet](exploratory%20data%20analysis%20(EDA)%20with%20pandas.md)
+  - [[🧠 Best Machine Learning Courses](./best-ml-courses.md)
 - [Contributing](#-contributing)
 - [You can help me by Donating](#-you-can-help-me-by-donating)
 ---
@@ -518,6 +519,15 @@ A comprehensive Pandas EDA cheat sheet covering 29 key topics — from data load
 
 📊 **[exploratory data analysis (EDA) with pandas.md](exploratory%20data%20analysis%20(EDA)%20with%20pandas.md)** — 29 sections covering Data Loading, Inspection, Cleaning, Transformation, Visualization, Statistical Analysis, Merging, Time Series, NLP operations, Normalization, and more.
 ---
+
+## 🧠 Best Machine Learning Courses
+
+A curated list of 5 high-impact ML programs — from foundations to production-grade systems.
+
+📚 **[best-ml-courses.md](./best-ml-courses.md)** — Covers DataCamp (ML Scientist & ML Engineer tracks), Andrew Ng's ML Specialization on Coursera, Made with ML (free MLOps), and ML ZoomCamp by DataTalks.Club.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for:
