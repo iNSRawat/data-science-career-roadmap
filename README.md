@@ -528,7 +528,7 @@ A curated list of 5 high-impact ML programs — from foundations to production-g
 
 ---
 
-## 🤝 Contributing
+## 📊 Python Statistics Cheatsheet  Code on the left, how to read the result on the right — covering 8 essential statistical tests and measures used in real business analysis.  📈 **[python-statistics-cheatsheet.md](python-statistics-cheatsheet.md)** — Covers Descriptive Statistics, Z-score outlier detection, Normality checks, IQR for skewed data, T-tests, Chi-square, Pearson Correlation, and Linear Regression — each with Python code and a plain-English interpretation column.  ---  ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for:
 
