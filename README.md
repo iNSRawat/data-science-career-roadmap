@@ -128,6 +128,22 @@ We've also integrated specialized guides for every step of your journey:
 
 ## 🎨 Portfolio Projects
 
+To build a professional portfolio, we recommend following this standardized project structure:
+
+### 🚀 Recommended Project Structure
+```text
+project-name/
+├── README.md (Problem, approach, results, impact)
+├── data/ (sample data or link)
+├── notebooks/ (Jupyter notebooks with analysis)
+├── src/ (Python scripts, modular code)
+├── models/ (trained models)
+├── visualizations/ (key charts)
+├── app/ (deployment files if applicable)
+└── requirements.txt (dependencies)
+```
+
+### 5 Must-Have Portfolio Projects
 Build end-to-end projects that demonstrate high business value:
 
 1.  **Customer Churn Prediction (Classification):** Predict and prevent user attrition.
