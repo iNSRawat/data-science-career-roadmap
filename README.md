@@ -1,6 +1,6 @@
 # 🚀 Data Science & AI Career Roadmap
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Repo Views](https://komarev.com/ghpvc/?username=iNSRawat&repo=data-science-career-roadmap&label=Views&color=brightgreen)](https://github.com/iNSRawat/data-science-career-roadmap)
 
