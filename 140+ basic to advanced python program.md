@@ -4,7 +4,7 @@
 
 ---
 
-### Slide 1: Basic Programs
+### Basic Programs
 **Program 1: Write a Python program to print "Hello Python".**
 ```python
 print("Hello Python")
@@ -39,7 +39,7 @@ print(f"The area of the triangle is: {area}")
 
 ---
 
-### Slide 2: Variables & Conversions
+### Variables & Conversions
 **Program 4: Write a Python program to swap two variables.**
 ```python
 a = input("Enter the value of the first variable (a): ")
@@ -67,7 +67,7 @@ print(f"{kilometers} kilometers is equal to {miles} miles")
 
 ---
 
-### Slide 3: Calendar & Math
+### Calendar & Math
 **Program 7: Write a Python program to convert Celsius to Fahrenheit.**
 ```python
 celsius = float(input("Enter temperature in Celsius: "))
@@ -87,11 +87,11 @@ print(cal)
 **Program 9: Write a Python program to solve quadratic equation.**
 *Standard Form:* `ax^2 + bx + c = 0`
 *Formula:* `(-b ± sqrt(b^2 - 4ac)) / (2a)`
-*(Code continues on Slide 4)*
+*(Code continues below)*
 
 ---
 
-### Slide 4: Advanced Math & Logic
+### Advanced Math & Logic
 **Program 9 (Continued):**
 ```python
 import math
@@ -122,7 +122,7 @@ print(f"After swapping: a = {a}, b = {b}")
 
 ---
 
-### Slide 5: Conditionals
+### Conditionals
 **Program 11: Check if a Number is Positive, Negative or Zero.**
 ```python
 num = float(input("Enter a number: "))
@@ -148,7 +148,7 @@ else: print(f"{year} is not a leap year")
 
 ---
 
-### Slide 6: Prime Numbers
+### Prime Numbers
 **Program 14: Check Prime Number.**
 ```python
 num = int(input("Enter a number: "))
@@ -165,7 +165,7 @@ else: print(f"{num} is not a prime number")
 
 ---
 
-### Slide 7: Factorials & Intervals
+### Factorials & Intervals
 **Program 15: Display all prime numbers within an interval.**
 ```python
 lower, upper = 1, 10
@@ -187,7 +187,7 @@ print(f"Factorial of {num} is {factorial}")
 
 ---
 
-### Slide 8: Sequences
+### Sequences
 **Program 17: Display the multiplication Table.**
 ```python
 num = int(input("Table of: "))
@@ -208,7 +208,7 @@ while count < nterms:
 
 ---
 
-### Slide 9: Armstrong Numbers
+### Armstrong Numbers
 **Program 19: Check Armstrong Number.**
 ```python
 num = int(input("Enter a number: "))
@@ -224,7 +224,7 @@ else: print(f"{num} is not")
 
 ---
 
-### Slide 10: Final Programs
+### Final Programs
 **Program 20: Find Armstrong Number in an Interval.**
 ```python
 lower, upper = 10, 1000
@@ -246,4 +246,3 @@ print(f"Sum: {total}")
 ```
 
 ---
-
